@@ -16,5 +16,9 @@ Among other stuff the following may be useful:
 - OpenMP scoping examples: https://showterm.io/5bb377341309093422e49#fast
 - OpenMP synchronization examples: https://showterm.io/9b9bbfbc6556c1713bfc1#fast
 
+## Getting started
+
+Please take a couple of minutes and read through [this document](INTRO.md)
+
 [l1]: https://www.grnet.gr/el/hpcARIS-training-a-Sept15
 
