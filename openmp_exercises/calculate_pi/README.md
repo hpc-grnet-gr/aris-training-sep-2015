@@ -1,0 +1,3 @@
+- Parallelize main for loop using an omp for directive
+ - Take care of data scoping
+ - Add a reduction clause to get the final sum
