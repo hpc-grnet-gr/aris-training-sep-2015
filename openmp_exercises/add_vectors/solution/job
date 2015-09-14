@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --job-name=add_vectors  # Job name
+#SBATCH --ntasks=1              # Number of processor cores (i.e. tasks)
+#SBATCH --nodes=1               # Number of nodes requested
+#SBATCH --ntasks-per-node=1     # Tasks per node
+#SBATCH --cpus-per-task=4      # Threads per task
+#SBATCH --time=00:01:00         # Expected walltime
+#SBATCH --partition=compute     # Partition(s)
+#SBATCH --account=sept2015      # Accounting project
+
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+
+# LOAD MODULES
+module load gnu
+
+# RUN YOUR PROGRAM
+srun ./add_vectors 1000000000

@@ -1,0 +1,3 @@
+- Implement the parallel addition of the two vectors using OpenMP
+- Create a submission script and submit this as a batch job
+- How does the time to solution vary when adding or reducing threads?
