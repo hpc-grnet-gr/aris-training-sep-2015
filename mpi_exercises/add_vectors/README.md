@@ -1,0 +1,3 @@
+- Implement the addition of two vectors using add_vec.c as a starting point (placeholder)
+ - Initialize vector and distribute the chunks across the processes
+ - Add the two vectors and gather back results onto one process

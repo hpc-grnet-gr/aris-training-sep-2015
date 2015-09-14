@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#SBATCH --job-name=mpi_job  # Job name
+#SBATCH --ntasks=30         # Number of processor cores (i.e. tasks)
+#SBATCH --nodes=3           # Number of nodes requested
+#SBATCH --cpus-per-task=1   # Threads per task
+#SBATCH --time=00:01:00     # Expected walltime
+#SBATCH --partition=compute # Partition(s)
+#SBATCH --account=sept2015  # Accounting project
+
+# LOAD MODULES
+module load gnu intel intelmpi
+
+# RUN YOUR PROGRAM
+srun ./f_hello
