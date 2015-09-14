@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --job-name=simple_job
+#SBATCH --time=00:01:00
+#SBATCH --account=sept2015
+#SBATCH --partition=compute
+
+# this is a comment
+sleep 30
+/bin/hostname
+
