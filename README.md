@@ -18,7 +18,7 @@ Among other stuff the following may be useful:
 
 ## Getting started
 
-Please take a couple of minutes and read through [this document](INTRO.md)
+Please take a couple of minutes and read through [this document](introduction/README.md)
 
 [l1]: https://www.grnet.gr/el/hpcARIS-training-a-Sept15
 
